@@ -9,12 +9,13 @@
   <title>【JS】new关键字底层原理-执行过程 | 小马哥的技术盒子</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="构造对象new在上一章我们提到产生对象的new关键字，并且讲到了js的new和其他语言的new是有区别的，那么今天我们就来讲解js里new产生对象的构造原理。 （注意new关键在和其他语言的区别，第一章内容） //人类构造函数 function People(){  } People.prototype.index = 1;    //在原型上绑定一个index属性，值为1  var p1 = n">
+<meta name="keywords" content="js,javascript,前端">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【JS】new关键字底层原理-执行过程">
 <meta property="og:url" content="https://coily.github.io/2017/06/14/【JS】new关键字底层原理-执行过程 - 副本/index.html">
 <meta property="og:site_name" content="小马哥的技术盒子">
 <meta property="og:description" content="构造对象new在上一章我们提到产生对象的new关键字，并且讲到了js的new和其他语言的new是有区别的，那么今天我们就来讲解js里new产生对象的构造原理。 （注意new关键在和其他语言的区别，第一章内容） //人类构造函数 function People(){  } People.prototype.index = 1;    //在原型上绑定一个index属性，值为1  var p1 = n">
-<meta property="og:updated_time" content="2017-07-05T12:55:44.971Z">
+<meta property="og:updated_time" content="2017-07-05T13:31:13.841Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【JS】new关键字底层原理-执行过程">
 <meta name="twitter:description" content="构造对象new在上一章我们提到产生对象的new关键字，并且讲到了js的new和其他语言的new是有区别的，那么今天我们就来讲解js里new产生对象的构造原理。 （注意new关键在和其他语言的区别，第一章内容） //人类构造函数 function People(){  } People.prototype.index = 1;    //在原型上绑定一个index属性，值为1  var p1 = n">
@@ -301,6 +302,25 @@ console.log(p1.address);    //undefined
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">js</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">javascript</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">前端</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -489,6 +509,34 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">页游</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">手游</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">游戏</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">game</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">js</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">javascript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">前端</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
